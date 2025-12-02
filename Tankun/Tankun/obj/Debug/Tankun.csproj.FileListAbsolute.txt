@@ -1,0 +1,7 @@
+C:\Users\NK 2316\Documents\GitHub\Tankun.68\Tankun\Tankun\bin\Debug\Tankun.exe.config
+C:\Users\NK 2316\Documents\GitHub\Tankun.68\Tankun\Tankun\bin\Debug\Tankun.exe
+C:\Users\NK 2316\Documents\GitHub\Tankun.68\Tankun\Tankun\bin\Debug\Tankun.pdb
+C:\Users\NK 2316\Documents\GitHub\Tankun.68\Tankun\Tankun\obj\Debug\Tankun.csproj.AssemblyReference.cache
+C:\Users\NK 2316\Documents\GitHub\Tankun.68\Tankun\Tankun\obj\Debug\Tankun.csproj.CoreCompileInputs.cache
+C:\Users\NK 2316\Documents\GitHub\Tankun.68\Tankun\Tankun\obj\Debug\Tankun.exe
+C:\Users\NK 2316\Documents\GitHub\Tankun.68\Tankun\Tankun\obj\Debug\Tankun.pdb
