@@ -6,17 +6,28 @@ namespace Taenkhun_Thunkheam
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter score (0-100): ");
-            string input = Console.ReadLine();
-
-            int score;
-            if (!int.TryParse(input, out score) || score < 0 || score > 100)
+            while (true)
             {
-                Console.WriteLine("Invalid input. Please enter an integer between 0 and 100.");
-                return;
-            }
+                Console.Write("Enter score (0-100) or Q to quit: ");
+                string input = Console.ReadLine();
 
-            Console.WriteLine(GetGrade(score));
+                // ออกจากโปรแกรม
+                if (input.Equals("q", StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.WriteLine("Program ended.");
+                    break;
+                }
+
+                int score;
+                if (!int.TryParse(input, out score) || score < 0 || score > 100)
+                {
+                    Console.WriteLine("Invalid input. Please enter an integer between 0 and 100.\n");
+                    continue;
+                }
+
+                Console.WriteLine(GetGrade(score));
+                Console.WriteLine();
+            }
         }
 
         private static string GetGrade(int score)
@@ -32,3 +43,4 @@ namespace Taenkhun_Thunkheam
         }
     }
 }
+
